@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-17T10:26:22 EST" name="Suite" finished-at="2023-01-17T10:26:29 EST" duration-ms="6372">
+    <groups>
+    </groups>
+    <test started-at="2023-01-17T10:26:22 EST" name="Test" finished-at="2023-01-17T10:26:29 EST" duration-ms="6372">
+      <class name="jenkins.JenkinsTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:jenkins.JenkinsTest@49b0b76]" started-at="2023-01-17T10:26:22 EST" name="beforeMethod" finished-at="2023-01-17T10:26:26 EST" duration-ms="3685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC01(java.lang.String,java.lang.String)[pri:0, instance:jenkins.JenkinsTest@49b0b76]" started-at="2023-01-17T10:26:26 EST" name="TC01" finished-at="2023-01-17T10:26:28 EST" duration-ms="2122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elizabathnov2022@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edna@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:jenkins.JenkinsTest@49b0b76]" started-at="2023-01-17T10:26:28 EST" name="afterMethod" finished-at="2023-01-17T10:26:29 EST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- jenkins.JenkinsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
